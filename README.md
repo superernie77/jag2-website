@@ -106,5 +106,5 @@ src/
 
 ## Contact
 
-**Ernesto Elias Nieland** · e.eliasnieland@gmail.com · +49 (0)8654 588 95 05  
+**Ernesto Elias Nieland**  
 Freilassing · Germany (15 min from Salzburg)

@@ -101,9 +101,9 @@ export default function ContactPage() {
               </h3>
               <dl style={{ margin: 0 }}>
                 <dt>Email</dt>
-                <dd><a href="mailto:e.eliasnieland@gmail.com">e.eliasnieland@gmail.com</a></dd>
+                <dd>—</dd>
                 <dt>Phone</dt>
-                <dd><a href="tel:+4986545889505">+49 (0)8654 588 95 05</a></dd>
+                <dd>—</dd>
                 <dt>Location</dt>
                 <dd>Freilassing · Germany<br />(15 min from Salzburg)</dd>
                 <dt>Available for</dt>
