@@ -178,6 +178,9 @@ a { color: inherit; text-decoration: none; }
 .jag-svcrow__list li:hover { padding-left: 6px; }
 .jag-svcrow__list-num { font-family: var(--jag-font-label); font-size: 11px; letter-spacing: 1.2px; color: #8F8F8F; padding-top: 3px; }
 .jag-svcrow__list li > span:last-child { min-width: 0; }
+.jag-svcrow__img-wrap { margin: 0 0 28px; line-height: 0; }
+.jag-svcrow__img { width: 100%; height: 260px; object-fit: cover; display: block; filter: grayscale(15%); border: 1px solid #E2E8F0; transition: filter 0.4s; }
+.jag-svcrow__img:hover { filter: grayscale(0%); }
 
 /* About page */
 .jag-aboutgrid { display: grid; grid-template-columns: 1fr 1.5fr; gap: 80px; align-items: start; }
