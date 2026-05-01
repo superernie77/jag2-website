@@ -1,36 +1,110 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# JAG Website
 
-## Getting Started
+Marketing and services website for **JAG** — Java · Architecture · QA consulting, based in Freilassing, Germany.
 
-First, run the development server:
+Built with **Next.js 16** (App Router) and **GSAP 3** for animations, from a Claude Design handoff.
+
+---
+
+## Stack
+
+| Layer | Choice |
+|---|---|
+| Framework | Next.js 16 (App Router, static export) |
+| Language | TypeScript |
+| Animations | GSAP 3 + ScrollTrigger |
+| Fonts | Inter Tight (display/body) · Archivo (labels) via Google Fonts |
+| Styling | Global CSS with custom design tokens |
+
+---
+
+## Pages
+
+| Route | Description |
+|---|---|
+| `/` | Home — hero, three commitments, services overview, Why JAG essay, proof band, testimonials, CTA |
+| `/services` | Five service rows with sticky heads and numbered deliverable lists |
+| `/about` | Bio, portrait card, values, four-chapter career timeline |
+| `/training` | Format cards, 8-topic catalogue table, four-step process |
+| `/contact` | Validated enquiry form + direct contact sidebar |
+
+---
+
+## GSAP effects
+
+- **Hero**: staggered text entrance (kicker → title → caption → CTAs), emblem continuous float, plate glow pulse, crosshair flicker
+- **Pillars**: scroll-triggered stagger from below, red rule width animation on enter + hover
+- **Service tiles**: stagger with scale from scroll
+- **Proof band**: animated number counters (0 → target) on scroll
+- **Why JAG**: sticky LHS slide-in from left, RHS paragraph stagger, pull-quote slide
+- **Social proof**: logo cell stagger, quote cards rise
+- **Services page**: each row animates head/body from opposite sides independently
+- **About page**: portrait slides left, bio slides right, bio paragraphs stagger, timeline rows cascade
+- **Training page**: format cards stagger with scale, table rows cascade
+- **Contact page**: form and sidebar slide from opposite sides, success message fade-up
+- **Nav**: brand/links/CTA entrance + scroll shadow on `scrollY > 20`
+- **Mobile drawer**: GSAP slide-down open, slide-up close, links stagger in
+- **CTA band**: title, caption, button animate from opposite sides on scroll
+
+---
+
+## Design system
+
+Ferrari-inspired editorial system: chiaroscuro (black/white), restrained typography, precision spacing.
+
+| Token | Value |
+|---|---|
+| Accent (Rosso Corsa) | `#DA291C` |
+| Black surface | `#000000` |
+| Graphite surface | `#181818` |
+| White surface | `#FFFFFF` |
+| Ash surface | `#F5F5F5` |
+| Display font | Inter Tight 400/500/600/700 |
+| Label font | Archivo 400 |
+
+---
+
+## Development
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+npm run dev       # http://localhost:3000
+npm run build     # production build
+npm run start     # serve production build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+src/
+  app/
+    globals.css          # all design tokens + component styles
+    layout.tsx           # root layout — Nav + Footer wrappers
+    page.tsx             # home route
+    about/page.tsx
+    contact/page.tsx
+    services/page.tsx
+    training/page.tsx
+  components/
+    Nav.tsx              # sticky nav with mobile hamburger drawer
+    Footer.tsx
+    PageHead.tsx         # dark hero banner for sub-pages
+    CTABand.tsx          # red CTA section
+    home/
+      HomePage.tsx
+      Hero.tsx
+      Pillars.tsx
+      ServicesOverview.tsx
+      WhyJAG.tsx
+      ProofBand.tsx
+      SocialProof.tsx
+```
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## Contact
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Ernesto Elias Nieland** · e.eliasnieland@gmail.com · +49 (0)8654 588 95 05  
+Freilassing · Germany (15 min from Salzburg)
