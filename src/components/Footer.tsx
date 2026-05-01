@@ -64,7 +64,7 @@ export default function Footer() {
         </div>
 
         <div className="jag-footer__sub">
-          <span>© MMXXVI · JAG · Java · Architecture · QA · Freilassing, Germany</span>
+          <span>© MMXXVI · JAG · Java · Architecture · QA · Germany</span>
           <div className="jag-footer__legal">
             <Link href="/contact">Impressum</Link>
             <Link href="/contact">Datenschutz</Link>

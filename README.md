@@ -1,6 +1,6 @@
 # JAG Website
 
-Marketing and services website for **JAG** — Java · Architecture · QA consulting, based in Freilassing, Germany.
+Marketing and services website for **JAG** — Java · Architecture · QA consulting, based in Germany.
 
 Built with **Next.js 16** (App Router) and **GSAP 3** for animations, from a Claude Design handoff.
 
@@ -106,5 +106,4 @@ src/
 
 ## Contact
 
-**Ernesto Elias Nieland**  
-Freilassing · Germany (15 min from Salzburg)
+Contact details available on request.

@@ -16,7 +16,7 @@ const LOGOS = [
 
 const QUOTES = [
   {
-    body: 'Ernesto delivered the kind of architecture review you can hand to the auditor and the team lead on the same day. Concrete. Binding. Right.',
+    body: 'JAG delivered the kind of architecture review you can hand to the auditor and the team lead on the same day. Concrete. Binding. Right.',
     name: 'Engagement lead',
     role: 'Tier-1 Bank · Austria — placeholder',
   },

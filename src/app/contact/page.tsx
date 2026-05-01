@@ -104,8 +104,6 @@ export default function ContactPage() {
                 <dd>—</dd>
                 <dt>Phone</dt>
                 <dd>—</dd>
-                <dt>Location</dt>
-                <dd>Freilassing · Germany<br />(15 min from Salzburg)</dd>
                 <dt>Available for</dt>
                 <dd>Remote &amp; on-site engagements across Germany, Austria &amp; Europe</dd>
                 <dt>Response time</dt>

@@ -15,7 +15,7 @@ const VALUES = [
 ];
 
 const TIMELINE = [
-  { yr: '2023 — present', role: 'Founder · JAG', org: 'Independent practice — Java, Architecture and QA for finance & insurance.', loc: 'Freilassing · DE' },
+  { yr: '2023 — present', role: 'Founder · JAG', org: 'Independent practice — Java, Architecture and QA for finance & insurance.', loc: 'Germany · DE' },
   { yr: '2012 — 2023', role: 'Senior Java Developer · Software Architect', org: 'Wüstenrot Datenservice — microservices, internal sales platform, Java EE training.', loc: 'Salzburg · AT' },
   { yr: '2009 — 2012', role: 'Senior Developer · HCM platform', org: 'Provincial Health Services Authority of BC — payroll & scheduling for 8 hospitals.', loc: 'Vancouver · CA' },
   { yr: '2001 — 2009', role: 'Researcher · Lecturer', org: 'University of Dortmund — process modelling, e-learning framework, programming lectures.', loc: 'Dortmund · DE' },
@@ -71,7 +71,7 @@ export default function AboutPage() {
             <aside className="jag-aboutcard about-card">
               <div className="jag-aboutcard__photo" />
               <dl className="jag-aboutcard__facts">
-                <dt>Based in</dt><dd>Freilassing · Germany (near Salzburg)</dd>
+                <dt>Based in</dt><dd>Germany</dd>
                 <dt>Experience</dt><dd>20+ years · Java, Architecture &amp; QA</dd>
                 <dt>Industry focus</dt><dd>Finance &amp; insurance</dd>
                 <dt>Languages</dt><dd>German, English</dd>

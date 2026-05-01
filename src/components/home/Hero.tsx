@@ -53,7 +53,7 @@ export default function Hero() {
       <div className="jag-hero__inner">
         <div className="jag-hero__text">
           <span className="jag-label-upper jag-hero__kicker hero-kicker">
-            JAG · Consulting since 2023 · Freilassing
+            JAG · Consulting since 2023 · Germany
           </span>
           <h1 className="jag-hero__title hero-title">
             Engineering excellence for mid&#8209;size companies.
