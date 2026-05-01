@@ -48,7 +48,7 @@ export default function ProofBand() {
   }, []);
 
   return (
-    <section ref={ref} className="jag-block jag-block--dark" style={{ padding: 0 }}>
+    <section ref={ref} className="jag-block jag-block--dark-img" style={{ padding: 0 }}>
       <div className="jag-shell" style={{ padding: '80px 40px 40px' }}>
         <div className="jag-secthead jag-secthead--dark proof-head">
           <span className="jag-label-upper jag-secthead__kicker">Counted, not claimed</span>

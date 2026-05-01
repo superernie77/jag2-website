@@ -88,6 +88,14 @@ export default function ServicesPage() {
         title="Five engagements. One studio."
         caption="JAG offers a focused set of high-value services for mid-size technology teams. Every engagement is hands-on, senior-led and outcome-oriented."
       />
+      <figure className="jag-svc-imgstrip" style={{ margin: 0 }}>
+        <img
+          src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=1920&q=85"
+          alt="Code on screens"
+          style={{ width: '100%', height: 320, objectFit: 'cover', display: 'block' }}
+          loading="lazy"
+        />
+      </figure>
       <section className="jag-block jag-block--light">
         <div className="jag-shell">
           {SERVICE_DETAIL.map((s, i) => (

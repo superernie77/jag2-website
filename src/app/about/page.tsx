@@ -69,7 +69,13 @@ export default function AboutPage() {
         <div className="jag-shell">
           <div className="jag-aboutgrid">
             <aside className="jag-aboutcard about-card">
-              <div className="jag-aboutcard__photo" />
+              <div className="jag-aboutcard__photo">
+                <img
+                  src="https://images.unsplash.com/photo-1531403009284-440f080d1e12?w=800&q=85"
+                  alt="Consulting engagement"
+                  style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover' }}
+                />
+              </div>
               <dl className="jag-aboutcard__facts">
                 <dt>Based in</dt><dd>Germany</dd>
                 <dt>Experience</dt><dd>20+ years · Java, Architecture &amp; QA</dd>
