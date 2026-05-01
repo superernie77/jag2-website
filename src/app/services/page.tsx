@@ -35,7 +35,7 @@ const SERVICE_DETAIL = [
   },
   {
     n: '05', title: 'Project Management',
-    img: 'https://images.unsplash.com/photo-1611224885990-ab7363d1f2b9?w=1200&q=85',
+    img: 'https://images.unsplash.com/photo-1531538606174-0f90ff5dce83?w=1200&q=85',
     body: 'Beyond the technical work, JAG can take on the coordination layer — tracking progress, managing stakeholders, and keeping deliverables on time. Useful for companies without a dedicated PM or for augmenting an existing team.',
     list: ['Sprint planning and backlog management', 'Stakeholder reporting', 'Risk identification and mitigation', 'Delivery coordination across teams'],
   },
