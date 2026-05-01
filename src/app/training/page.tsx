@@ -74,6 +74,15 @@ export default function TrainingPage() {
         caption="Practical, hands-on training for development teams — tailored to your stack, delivered by a senior practitioner. Not slide decks read aloud."
       />
 
+      <figure style={{ margin: 0, position: 'relative', lineHeight: 0 }}>
+        <img
+          src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=1200&q=85"
+          alt="Professional group training session"
+          style={{ width: '100%', height: 380, objectFit: 'cover', display: 'block' }}
+        />
+        <div style={{ position: 'absolute', inset: 0, background: 'rgba(0,0,0,0.55)' }} />
+      </figure>
+
       <section ref={formatsRef} className="jag-block jag-block--light">
         <div className="jag-shell">
           <div className="jag-secthead">

@@ -12,7 +12,7 @@ const SERVICE_TILES = [
   { num: '02', title: 'Software Architecture', body: 'Design and review of scalable, future-proof systems.', img: 'https://images.unsplash.com/photo-1531403009284-440f080d1e12?w=800&q=85' },
   { num: '03', title: 'Quality Assurance', body: 'Comprehensive testing strategies — ship with confidence.', img: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&q=85' },
   { num: '04', title: 'IT Training', body: 'Hands-on training that actually sticks. For your team.', img: 'https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?w=800&q=85' },
-  { num: '05', title: 'Project Management', body: 'Structured delivery with clear communication at every step.', img: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&q=85' },
+  { num: '05', title: 'Project Management', body: 'Structured delivery with clear communication at every step.', img: 'https://images.unsplash.com/photo-1531538606174-0f90ff5dce83?w=800&q=85' },
   { num: '06', title: 'Architecture Review', body: 'An independent expert eye on your existing architecture.', img: 'https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=800&q=85' },
 ];
 
